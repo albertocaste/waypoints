@@ -1,0 +1,2 @@
+# waypoints
+Práctica con waypoints
