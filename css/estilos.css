@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:700|Oswald:700|Roboto:100,300,400');
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+}
+
+h1 {
+	margin: 0;
+	font-size: 70px;
+	font-family: 'Crimson Text', serif;
+	font-weight: bolder;
+	color: #ffffff;
+	text-align: center;
+}
+
+h3 {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+.centrado {
+	width: 1200px;
+	margin: auto;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	background: #ffffff;
+	border-bottom: 1px solid #333333;
+}
+
+footer {
+	background: #333333;
+	width: 100%;
+	height: 70px;
+}
+
+header .centrado, footer .centrado{
+	width: 100%;
+	height: 70px;
+	padding: 20px;
+}
+
+footer .centrado{
+	text-align: center;
+}
+
+footer .logo {
+	float: none;
+}
+
+footer .logo a:link {
+	color: #ffffff;
+}
+
+.clearfix {
+	clear:both;
+}
+
+.logo {
+	float: left;
+	width: auto;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bolder;
+}
+
+.logo a:link, .logo a:visited {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bolder;
+	color: #333333;
+	text-decoration: none;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.logo span {
+	font-size: 15px;
+}
+
+.btnmenu {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	float: right;
+	padding: 0px 2px 0px 2px;
+	cursor: pointer;
+}
+
+.btnmenu span {
+	display: block;
+	width: 100%;
+	height: 5px;
+	background: #333333;
+	margin-top: 4.33px;
+}
+
+.btnmenu span:first-child {
+	margin-top: 2.16px;
+}
+
+#hero {
+	width: 100%;
+	background: url(../img/bg_hero.jpg)no-repeat center center;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+#galeria {
+	width: 100%;
+}
+
+.col {
+	position:relative;
+	float: left;
+	height: 20vw;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.col:hover > img {
+	transform: translate(-50%, -50%) scale(1.1);
+	transition: transform 0.8s;
+}
+
+.col:hover > .overlay {
+	opacity: 1;
+	transition: opacity: 0.8s;
+}
+
+.col img {
+	position: absolute;
+	height: 40vw;
+	width: auto;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%) scale(1);
+	transition: transform 0.8s;
+}
+
+.col-50 {
+	width: 50%;
+}
+
+.col-25 {
+	width: 25%;
+}
+
+.overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 0.8s;
+}
+
+.overlay-violet {
+	background: rgba(46, 64, 134, 0.5);
+}
+
+.overlay-red {
+	background: rgba(203, 76, 91, 0.5);
+}
+
+.overlay-green {
+	background: rgba(0, 255, 0, 0.5);
+}
+
+.overlay-gold {
+	background: rgba(175, 150, 95, 0.5);
+}
+
+.overlay-blue {
+	background: rgba(79, 139, 197, 0.5);
+}
+
+@media (max-width: 1200px){
+	.centrado {
+		width: 100%;
+	}
+}
+
+.icons{
+	text-align: center;
+}
+
+
+.mitad:nth-child(2){
+	padding-left: 20px;
+}
+
+.mitad img{
+	width: 100%;
+	height: auto;
+}
+
+.mitad{
+	float:left;
+	width: 50%;
+}
+
+.fa{
+	margin-left: 40px;
+}
+
+.fa:first-child{
+	margin-left: 0px;
+ }
+
+
+
+
+
+
+
+
+
