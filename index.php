@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 <!-- JQuery -->
 	<script	  src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<!-- JQuery Boostrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- Bootstrap -->
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <!-- Link wWaypoints JS -->
@@ -62,6 +64,7 @@
 		});
 	</script>
 <!-- -->
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
 </head>
 <body>
 
@@ -132,11 +135,12 @@
 				<div class="col-xs-12">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptas animi autem. Quidem dignissimos doloremque, voluptate eum natus iste aut totam esse quas explicabo expedita quam non enim pariatur possimus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptas animi autem. Quidem dignissimos doloremque, voluptate eum natus iste aut totam esse quas explicabo expedita quam non enim pariatur possimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptas animi autem. Quidem dignissimos doloremque, voluptate eum natus iste aut totam esse quas explicabo expedita quam non enim pariatur possimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptas animi autem. Quidem dignissimos doloremque, voluptate eum natus iste aut totam esse quas explicabo expedita quam non enim pariatur possimus. </p>
 				</div>
-				
+				<hr>
 			</div>
 			
 		</div>
 	</section>
+	<br>
 	<section>
 		<div class="container">
 			<div id="bmx" class="row">
@@ -148,11 +152,46 @@
 			</div>
 		</div>
 	</section>
+	<br>
 	<section>
-		<div class="row">
-			<div id="tram" class="container">
-				<h3>Tram</h3>
-			</div>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		   <ol class="carousel-indicators">
+		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#myCarousel" data-slide-to="1"></li>
+		    <li data-target="#myCarousel" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="item active">
+		      <img src="img/california.jpg" alt="California">
+		      <div class="carousel-caption">
+		      <h3>California</h3>
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <img src="img/new_york.jpg" alt="New York">
+		      <div class="carousel-caption">
+		      <h3>New York</h3>
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <img src="img/cuba.jpg" alt="Cuba">
+		      <div class="carousel-caption">
+		      <h3>Cuba</h3>
+		      </div>
+		    </div>
+		  </div>
+
+		  <!-- Left and right controls -->
+		  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
 		</div>
 	</section>
 
